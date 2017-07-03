@@ -1,0 +1,128 @@
+ls
+git add *
+git status
+cd build
+ls
+git add makefile
+cd ..
+cd .
+cd ..
+cd prg
+cd cs415
+cd PA2
+git add .gitignore
+ls
+cd ..
+git add .gitignore
+cd PA2
+git add *
+git status
+cd ..
+ls
+cd PA2
+ls
+cd build
+ls
+cd ..
+ls
+git add *
+ls
+git status
+git commit -m "PA2 first draft"
+git push -u origin master
+git push -u origin master
+git pull
+cd prg/cs415
+git pull
+ls
+mkdir org
+cd org
+ls
+ls
+cd ..
+git status
+git add build/collect_data.sh
+git commit -m "Add data collection script"
+git push -u origin master
+git pull
+git status
+git history
+git --help
+git log
+bash -c echo "$(cat /sys/class/backlight/intel_backlight/brightness) + (.05 * $(cat /sys/class/backlight/intel_backlight/max_brightness))" | bc -l | sed -r 's/([^\.]*)\..*/\1/' > /sys/class/backlight/intel_backlight/brightness
+bash -c echo "$(cat /sys/class/backlight/intel_backlight/brightness) + (.05 * $(cat /sys/class/backlight/intel_backlight/max_brightness))" | bc -l | sed -r 's/([^\.]*)\..*/\1/' > /sys/class/backlight/intel_backlight/brightness
+echo 100 > /sys/class/backlight/intel_backlight/brightness
+echo 100 > /sys/class/backlight/intel_backlight/brightness
+echo 200 > /sys/class/backlight/intel_backlight/brightness
+cat /sys/class/backlght/intel_backlight/max_brightness
+cat /sys/class/backlight/intel_backlight/max_brightness
+echo "$(cat /sys/class/backlight/intel_backlight/brightness) + (.05 * $(cat /sys/class/backlight/intel_backlight/max_brightness))" | bc -l | sed -r 's/([^\.]*)\..*/\1/' > /sys/class/backlight/intel_backlight/brightness
+echo "$(cat /sys/class/backlight/intel_backlight/brightness) + (.05 * $(cat /sys/class/backlight/intel_backlight/max_brightness))" | bc -l | sed -r 's/([^\.]*)\..*/\1/'
+echo "$(cat /sys/class/backlight/intel_backlight/brightness) + (.05 * $(cat /sys/class/backlight/intel_backlight/max_brightness))" | bc -l | sed -r 's/([^\.]*)\..*/\1/'
+1+2 | bc -l
+echo 1+2 | bc -l
+echo "1+2" | bc -l
+bc
+dc
+dc --help
+echo "1+2"
+cd prg/cs415/
+ls
+mkdir PA3
+mkdir PA3/src
+cd PA2
+ls
+ls src
+cd src
+cd tclap_src
+ls
+cd include
+ls
+cd tclap
+ls
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+cat build/makefile
+ls
+cp src/tclap_src/include/tclap/ ../PA3/src/include/tclap
+cp -r src/tclap_src/include/tclap/ ../PA3/src/include/tclap
+cp -r src/tclap_src/include/tclap/ ../PA3/src/include/tclap/
+cp -r src/tclap_src/include/tclap/ ../PA3/src/include/tclap//include/tclap/
+mkdir ../PA3/src/include/
+cp -r src/tclap_src/include/tclap ../PA3/src/include/
+cd ..
+cd PA3
+ls
+cd src
+ls
+mv timer.h stopwatch.h
+ls
+cd $(pondo)
+ls
+cd matth
+cd matt
+ls
+cd 17
+ls
+mkdir 4
+cd 4
+ls
+mkdir 4-14_celegans_circ_revisions
+cd 4-14_celegans_circ_revisions/
+s
+ls
+gtags
+ls
+cd prg
+mkdir cybar
+cd cybar
+mkdir src
+cd src
+ls
+gcc cybar.c -o cybar
+gcc cybar.c -o cybar
+pkg-config
+gcc cybar.c $(pkg-config --cflags --libs x11) -o cybar

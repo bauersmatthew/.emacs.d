@@ -1,0 +1,30 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("vector" include (:system-flag t) nil [21 38])
+            ("string" include (:system-flag t) nil [39 56])
+            ("function" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [99 105])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [106 112]))                  
+                :type "void")
+                nil [85 140])
+            ("SAMPLE_CONST" variable
+               (:default-value "5"
+                :type "int")
+                nil [142 169])
+            ("main" function (:type "int") nil [171 280]))          
+      :file "test.cpp"
+      :pointmax 324
+      :fsize 274
+      :lastmodtime '(22849 2548 159498 158000)
+      :unmatched-syntax nil))
+  :file "!home!cyangekko!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

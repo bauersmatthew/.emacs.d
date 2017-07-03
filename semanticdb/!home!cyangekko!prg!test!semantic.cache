@@ -1,0 +1,82 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("vector" include (:system-flag t) nil [39 56])
+            ("header.h" include nil nil [57 76])
+            ("header2.h" include nil nil [77 97])
+            ("long_function_name" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [123 129])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [130 136]))                  
+                :type "void")
+                nil [99 184])
+            ("long_function_name2" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("b" variable (:type "int") (reparse-symbol arg-sub-list) [211 217])
+                    ("c" variable (:type "int") (reparse-symbol arg-sub-list) [218 224]))                  
+                :type "void")
+                nil [186 225])
+            ("long_function_name3" function
+               (:prototype-flag t
+                :type "void")
+                nil [226 253])
+            ("main" function (:type "int") nil [255 396]))          
+      :file "test.cpp"
+      :pointmax 397
+      :fsize 396
+      :lastmodtime '(22849 45394 889730 855000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("header_function" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("f" variable (:type "float") (reparse-symbol arg-sub-list) [24 32])
+                    ("d" variable (:type "double") (reparse-symbol arg-sub-list) [33 42])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [43 49]))                  
+                :type "void")
+                nil [3 50])
+            ("another_header_function" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [91 97]))                  
+                :type "void")
+                nil [62 98]))          
+      :file "header.h"
+      :pointmax 108
+      :fsize 107
+      :lastmodtime '(22849 7509 809409 304000)
+      :unmatched-syntax '((VOID 52 . 56)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("silent_function" function
+               (:prototype-flag t
+                :type "void")
+                nil [1 24]))          
+      :file "header2.h"
+      :pointmax 25
+      :fsize 24
+      :lastmodtime '(22849 7622 81407 294000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("sys" include nil nil [1 11]))          
+      :file "test.py"
+      :pointmax 31
+      :fsize 49
+      :lastmodtime '(22849 11592 844336 185000)
+      :unmatched-syntax '((NAME 13 . 16) ($EOI 27 . 27) (NAME 13 . 16) ($EOI 18 . 18) (NAME 13 . 16) ($EOI 17 . 17) (NAME 13 . 16) ($EOI 18 . 18) (NAME 13 . 16) ($EOI 17 . 17) (NAME 13 . 16) ($EOI 18 . 18) (NAME 13 . 16) ($EOI 17 . 17) ($EOI 8 . 8))))
+  :file "!home!cyangekko!prg!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

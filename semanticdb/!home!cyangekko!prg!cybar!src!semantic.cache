@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("X11/Xlib.h" include (:system-flag t) nil [65 86])
+            ("X11/keysym.h" include (:system-flag t) nil [87 110])
+            ("X11/Xutil.h" include (:system-flag t) nil [111 133])
+            ("assert.h" include (:system-flag t) nil [134 153])
+            ("unistd.h" include (:system-flag t) nil [154 173])
+            ("stdio.h" include (:system-flag t) nil [174 192])
+            ("string.h" include (:system-flag t) nil [193 212])
+            ("col_black" variable (:type "int") nil [214 228])
+            ("col_white" variable (:type "int") nil [229 243])
+            ("main" function (:type "int") nil [245 2794]))          
+      :file "cybar.c"
+      :pointmax 2795
+      :fsize 2794
+      :lastmodtime '(22849 63773 38401 737000)
+      :unmatched-syntax nil))
+  :file "!home!cyangekko!prg!cybar!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

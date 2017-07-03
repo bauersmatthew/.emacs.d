@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("pondo"
+ (filename . "/ssh:mbauer@ponderosa.biology.unr.edu:/home/mbauer/")
+ (front-context-string . ".aaa.swp\n  -rw-r")
+ (rear-context-string . "52 Jul 14  2016 ")
+ (position . 237))
+)
